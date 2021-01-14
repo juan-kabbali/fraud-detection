@@ -17,8 +17,9 @@ python project to detect fraudulent transactions using machine learning algorith
 ## Data directory
 In this directory we can find out 4 different files containing the data frames used for the analysis.
   
-* **light_train.txt**: balanced data frame containing 2 673 frauds and 5 000 non-frauds
-* **train.txt** unbalanced data frame containing 2 673 frauds and 1 045 902 non-frauds
-* **train_chunk.txt** train's unbalanced chunk data frame containing 855 frauds and 263 288 non-frauds
-* **transactions.txt** test data frame containing 6 257 and 2 225 112 non-frauds
+* **light_train.txt**: unbalanced dataset containing 1/10 a tenth part rounded robin from the original dataset 
+* **balance_train.txt**: balanced dataset containing all frauds e.i. 5402 and 5402 shuffled non-frauds
+* **train.txt** unbalanced dataset for creating our models
+* **test.txt** unbalanced dataset for  testing our models
+* **transactions.txt** original unbalanced dataset
 
