@@ -23,3 +23,5 @@ In this directory we can find out 4 different files containing the data frames u
 * **test.txt** unbalanced dataset for  testing our models
 * **transactions.txt** original unbalanced dataset
 
+# QUESTIONS
+1. para hacer undersampling o oversampling con la libreria que encontré para python, siempre piden X y Y pero despues de hacer un scatter plot con todos los features no encontré ninguno que pudiera separar los puntos
