@@ -6,3 +6,4 @@ pandas
 matplotlib
 seaborn
 plotly
+imbalanced-learn
